@@ -212,6 +212,20 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# Student safety system - local/private data
+*.db
+*.joblib
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Local environment
+.env
+
+# Python cache
+__pycache__/
+*.pyc
 __marimo__/
 
 # Streamlit
