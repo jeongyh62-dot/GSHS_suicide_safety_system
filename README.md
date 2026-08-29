@@ -6,7 +6,8 @@
 - `apps/teacher_dashboard.py` : RF 상대순위, 전문가 추가 선정, Safety Plan, 체크인 모니터링, 후속조치
 - `tests/integration_test_seed.py` : TEST-001 ~ TEST-005 통합 시연 데이터 생성
 - `data/checkin_data.db` : 실행 시 생성되는 공용 SQLite DB
-- `models/` : RF 모델 파일 위치
+- data/checkin_data.db : 최초 실행 또는 테스트 시 생성되는 로컬 공용 SQLite DB이며 GitHub에는 포함하지 않음
+- `models/` : RF 모델 파일 위치  — 실제 .joblib 파일은 저장소에 포함하지 않음
 
 ## 2. 필수 모델 파일
 다음 두 파일을 `models/`에 넣어야 초기 선별 앱의 RF 추론이 동작합니다.
