@@ -5,7 +5,7 @@
 - `apps/student_checkin_app.py` : 지속관리 학생의 30초 체크인
 - `apps/teacher_dashboard.py` : RF 상대순위, 전문가 추가 선정, Safety Plan, 체크인 모니터링, 후속조치
 - `tests/integration_test_seed.py` : TEST-001 ~ TEST-005 통합 시연 데이터 생성
-- 'data/checkin_data.db' : 최초 실행 또는 테스트 시 생성되는 로컬 공용 SQLite DB이며 GitHub에는 포함하지 않음
+- `data/checkin_data.db` : 최초 실행 또는 테스트 시 생성되는 로컬 공용 SQLite DB이며 GitHub에는 포함하지 않음
 - `models/` : RF 모델 파일 위치  — 실제 .joblib 파일은 저장소에 포함하지 않음
 
 ## 2. 필수 모델 파일
