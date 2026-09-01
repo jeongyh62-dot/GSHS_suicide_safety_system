@@ -233,3 +233,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 !models/*.joblib
+
+!models/*.joblib
